@@ -1,0 +1,15 @@
+{
+  "task": "ChamberServiceTask",
+  "robot": "Galbot-Mobile",
+  "layout": "robofinals/data/assets/Scene/scene04_1.usd",
+  "scene_backend": "local",
+  "task_backend": "local",
+  "device": "cpu",
+  "num_envs": 1,
+  "seed": 42,
+  "physics_backend": "physx",
+  "enable_full_local_scene": true,
+  "replay_cfgs": {"add_camera_to_observation": true},
+  "init_robot_base_pos": [0.60, -0.85, 0.0],
+  "init_robot_base_ori": [0.0, 0.0, 1.5707963267948966]
+}
